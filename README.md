@@ -28,6 +28,37 @@ In the digital are, here comes the SSI soluion.
 
 The target scenario of real-world communication of Alice and Bob is described in detail here
 
+## The walkthrough
+
+### Setting up steps for both a real estate owner or a buyer: use UAE.Pass staging app
+
+1. Install the UAE.Pass Staging application from the official site: https://docs.uaepass.ae/resources/staging-apps
+2. Complete a quick registration in the app, using your phone number or an email. No passport, ID card or residential status is requied.
+
+### Preparation steps for a real estate owner: issue VCs and ads
+1. Log in to [Identix.Pass](https://pass.identix.space/) using UAE Pass. A custodial wallet will be created and a DID will be issued for you, and bound to the UAE Pass account.
+2. In Identix.Pass main screen, issue an Emirates ID Verifiable Credential using the corresponding button. In a real case, this VC must be issued by a government institution or other authorized authority.
+3. In Identix.Pass main screen, issue a Real Estate Ownership VC using the corresponding button. Until The UAE Department of Land is engaged, you should enter some data into the form. All fields are mandatory.
+4. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be promted to confirm the login in your UAE.Pass app.
+5. Press the actions button in the page header and click "Create advertisement".
+6. Enter the same values as on the step #3 in the corresponding fields. The values must be precisely equal, otherwise you won't be able to verify it. You can upload an image, just for fun.
+
+### Main case workflow: Verify ownership
+As a real estate **buyer**
+
+1. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be promted to confirm the login in your UAE.Pass app.
+2. Open an advertisement item of your choice (you'd like to verify the one you've just enetered).
+3. Press the "Verify ownership" button. A QR code with a verification request encoded will appear.
+4. Show the QR code to the owner.
+
+As a real estate **owner**
+1. In the Identix.Pass main page, click "Verify my real estate" button. The verification form will appear.
+2. Press "Scan QR code" button, the camera will open. You may be prompted to give the camera-related permissions to the browser on your device.
+3. Scan the QR provided with the camera.
+
+### Both the real estate owner or the buyer
+1. See the result!
+
 ## Solution Architecture
 
 The solution architecture of the TrustEstate project tailors the design Identix team built during development 
