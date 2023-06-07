@@ -5,49 +5,49 @@ https://hackathon.venom.network/
 TrustEstate is a new identity service set to transform the real estate market in Dubai.
 
 - The Identix.Pass custodial SSI wallet app: https://pass.identx.space/
-- Real Estate Protal (simulation): https://re.identix.space
+- Real Estate Portal (simulation): https://re.identix.space
 
 
 ## Introduction
 
 TrustEstate uses SSI technologies backed by Venom blockchain to establish
-a secure and trusted model for agent-client interactions on Dubai Real Estate Market.
+a secure and trusted model for agent-client interactions in the Dubai Real Estate Market.
 
-Suppose we have a real estate owner Alice and a real estate buyer Bob. Alice placed an advertisement
-on a Real Estate Web Portal. Bob contacted her and they meet.
+Suppose we have a real estate owner, Bob, and a real estate buyer, Alice. Bob placed an advertisement
+on a Real Estate Web Portal. Alice contacted him and they meet.
 
-The problem is how would Bob trust that the person in the front of him is an owner 
-of the property in the question, not a fraudster? In the paper ages the only solution is for Alice to reveal her passport
-and other paper documents to verify her real estate ownership rights. There are many inconveniences with such an approach.
-Alice have to bear the precious papers with her, in risk to lose them or get them stolen. 
-Alice reveals her private data for many people, buyers, when the only thing required is an authorized fact that she has the specific right.
+The problem is, how would Alice check that the person in front of her is an owner 
+of the property or an authorized agent and not a fraudster? In the paper ages, the only solution for Alice is to ask Bob for his passport
+and other documents to verify his real estate ownership rights. There are many inconveniences with such an approach.
+Bob has to bring important documents in him, risking to lose them or get them stolen. 
+Bob reveals his private data to many people, different buyers, when the only thing they need is an authorized fact that he has necessary rights.
 
-In the digital are, here comes the SSI soluion.
+In the digital era, SSI solution helps to solve these issues more securely.
 
 ## Solution Scenario
 
-The target scenario of real-world communication of Alice and Bob is described in detail here
+The target scenario of the real-world communication between Alice and Bob is described in detail below.
 
-## The walkthrough
+## The Walkthrough
 
-### Setting up steps for both a real estate owner or a buyer: use UAE.Pass staging app
+### Setting up steps for both a real estate owner and a buyer: use the UAE.Pass staging app
 
 1. Install the UAE.Pass Staging application from the official site: https://docs.uaepass.ae/resources/staging-apps
-2. Complete a quick registration in the app, using your phone number or an email. No passport, ID card or residential status is requied.
+2. Complete a quick registration in the app, using your phone number or an email. No passport, ID card or residential status is required.
 
-### Preparation steps for a real estate owner: issue VCs and ads
-1. Log in to [Identix.Pass](https://pass.identix.space/) using UAE Pass. A custodial wallet will be created and a DID will be issued for you, and bound to the UAE Pass account.
-2. In Identix.Pass main screen, issue an Emirates ID Verifiable Credential using the corresponding button. In a real case, this VC must be issued by a government institution or other authorized authority.
-3. In Identix.Pass main screen, issue a Real Estate Ownership VC using the corresponding button. Until The UAE Department of Land is engaged, you should enter some data into the form. All fields are mandatory.
-4. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be promted to confirm the login in your UAE.Pass app.
+### Preparation steps for a real estate owner: issue VCs and create ads
+1. Log in to [Identix.Pass](https://pass.identix.space/) using the UAE Pass. A custodial wallet will be created, and a DID will be issued for you, and bound to the UAE Pass account.
+2. In Identix.Pass main screen, issue your Emirates ID Verifiable Credential using the corresponding button. In a real life, this VC must be issued by a government institution or other authorized authority.
+3. In Identix.Pass main screen, issue your Real Estate Ownership VC using the corresponding button. Until The UAE Department of Land is engaged, you should enter some data into the form. All fields are mandatory.
+4. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be prompted to confirm the login in your UAE.Pass app.
 5. Press the actions button in the page header and click "Create advertisement".
-6. Enter the same values as on the step #3 in the corresponding fields. The values must be precisely equal, otherwise you won't be able to verify it. You can upload an image, just for fun.
+6. Enter the same values as in step #3 in the corresponding fields. The values must be precisely equal, otherwise you won't be able to verify it. You can upload an image, just for fun.
 
 ### Main case workflow: Verify ownership
 As a real estate **buyer**
 
-1. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be promted to confirm the login in your UAE.Pass app.
-2. Open an advertisement item of your choice (you'd like to verify the one you've just enetered).
+1. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be prompted to confirm the login in your UAE.Pass app.
+2. Open an advertisement item of your choice (if you'd like to verify the one you've just entered).
 3. Press the "Verify ownership" button. A QR code with a verification request encoded will appear.
 4. Show the QR code to the owner.
 
@@ -57,28 +57,28 @@ As a real estate **owner**
 3. Scan the QR provided with the camera.
 
 ### Both the real estate owner or the buyer
-1. See the result!
+See results!
 
 ## Solution Architecture
 
-The solution architecture of the TrustEstate project tailors the design Identix team built during development 
-of SSI infrastructure for Everscale blockchain. It inherits implementation of SSI Triangle of Trust, 
+The solution architecture of the TrustEstate project tailors the design Identix team built during the development 
+of the SSI infrastructure for Everscale blockchain. It inherits implementation of the SSI Triangle of Trust, 
 where a real estate owner impersonates Holder, a buyer impersonates Verifier. We also simulate two Issuer roles, 
-and for demonstrational puposes issue two Verifiable Credential: *Emirates ID VC* and *Real Estate Ownership VC*. 
-Normally, UAE Federal Authority for Identity and Citizenship and UAE Land Department are supposed to be 
+and for demonstrational purposes issue two Verifiable Credential: *Emirates ID VC* and *Real Estate Ownership VC*. 
+Normally, UAE Federal Authority for Identity and Citizenship and UAE Lands Department are supposed to be 
 the authorities to issue and sign these credentials.
 
 One of the specifics of the Trust Estate solution is to use [UAE Pass](https://www.digitaldubai.ae/apps-services/details/uae-pass) 
-authentication to sign up and sign in to Identix Pass. We use the data provided by UAE Pass to fill in the fields in the sample Emirates ID VC.
+authentication to sign up and sign in to Identix Pass. We use the data provided by the UAE Pass to fill in the fields in the sample Emirates ID VC.
 UAE Pass is the National Digital Identity and Digital Signature solution. 
 
-For testing purposes, it is possble to freely create a limited account, bound to any phone number, via UAE Pass mobile app.
+For testing purposes, it is possible to create a limited account, bound to any phone number, via UAE Pass mobile app
 
-Identix.Wallets serice under the hood os Identix.Pass provide the custodial wallet storage. Each wallet is created and bound to 
+Identix.Wallets service under the hood of Identix.Pass provide the custodial wallet storage. Each wallet is created and bound to 
 an individual UAE account after a seamless signup via oauth2 protocol.
 
 ### The design
-The solution architecture design of TrustEstate, based on the Identix SSI ecosystem for Everscale is presented below
+The solution architecture design of TrustEstate, based on the Identix SSI ecosystem for Everscale, is presented below
 
 ![TrustEstate solution architecture](img/sol-arch.png)
 
@@ -86,15 +86,15 @@ To learn more details on the architecture, please visit [Solution Architecture O
 
 ### VC Brokerage Protocol and VC Data Model
 
-The TrustEstate solution SSI protocol is a specialization of the VC Brokerage Protocol, which was developed by Identix team.
-You can find detailed explanation on the protocol in the [Verifiable Credentials Brokerage protocol and framework overview](https://github.com/identix-space/everscale-ssi-contest-stage4/blob/master/docs/vc-brokerage-overview.md).
+The TrustEstate solution SSI protocol is a specialization of the VC Brokerage Protocol, which was developed by the Identix team.
+You can find a detailed explanation on the protocol in the [Verifiable Credentials Brokerage protocol and framework overview](https://github.com/identix-space/everscale-ssi-contest-stage4/blob/master/docs/vc-brokerage-overview.md).
 
-Important details on how we work with Decentralized Identifiers and Verifiable Credentials can be found in 
+Important details on how we work with Decentralized Identifiers and Verifiable Credentials can be found in the 
 [Verifiable Credential Lifecycle, Data Model and Implementation Design](https://github.com/identix-space/everscale-ssi-contest-stage4/blob/master/docs/vc-data-model.md)
 article.
 
 For the TrustEstate scenario, we develop a specific VC scheme, tagged `realestate_v1`.
-The VC schemes are pablicly available in the reference scheme storage under [https://schemas.identix.space/](https://schemas.identix.space/).
+The VC schemes are publicly available in the reference scheme storage under [https://schemas.identix.space/](https://schemas.identix.space/).
 
 ### The Real Estate Portal
 
@@ -103,7 +103,7 @@ https://re.identix.space/
 In order to simulate a real-world case, we developed a simple real estate property classified, where we're able to add and browse 
 through real estate advertisements and request to verify ownership via a QR code.
 
-## Deliverables fot TrustEstate
+## Deliverables for TrustEstate
 
 ### Public web apps
 
