@@ -92,8 +92,16 @@ As a real estate **owner**
   
   This is some additional information or description about the screenshot.
 </details>
+
 ### Both the real estate owner or the buyer
 See results!
+<details>
+  <summary>Click to expand/collapse screenshots</summary>
+  
+  ![Alt Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Success_verification_results.jpg)
+  
+  This is some additional information or description about the screenshot.
+</details>
 
 ## Solution Architecture
 
