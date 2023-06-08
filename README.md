@@ -73,12 +73,25 @@ As a real estate **buyer**
 2. Open an advertisement item of your choice (if you'd like to verify the one you've just entered).
 3. Press the "Verify ownership" button. A QR code with a verification request encoded will appear.
 4. Show the QR code to the owner.
+<details>
+  <summary>Click to expand/collapse screenshots</summary>
+  
+  ![Alt Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Alice_verifies_Bob.jpg)
+  
+  This is some additional information or description about the screenshot.
+</details>
 
 As a real estate **owner**
 1. In the Identix.Pass main page, click "Verify my real estate" button. The verification form will appear.
 2. Press "Scan QR code" button, the camera will open. You may be prompted to give the camera-related permissions to the browser on your device.
 3. Scan the QR provided with the camera.
-
+<details>
+  <summary>Click to expand/collapse screenshots</summary>
+  
+  ![Alt Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Bob_checks_alice_qr.jpg)
+  
+  This is some additional information or description about the screenshot.
+</details>
 ### Both the real estate owner or the buyer
 See results!
 
