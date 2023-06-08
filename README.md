@@ -24,7 +24,9 @@ Bob reveals his private data to many people, different buyers, when the only thi
 
 In the digital era, SSI solution helps to solve these issues more securely.
 
-[![Alt Text](https://img.youtube.com/vi/_nKiMCJbcrg/0.jpg)](https://www.youtube.com/watch?v=_nKiMCJbcrg)
+### Watch YouTube video presentation
+[![Watch the video presentation](https://img.youtube.com/vi/_nKiMCJbcrg/0.jpg)](https://www.youtube.com/watch?v=_nKiMCJbcrg)
+
 
 ## Solution Scenario
 
