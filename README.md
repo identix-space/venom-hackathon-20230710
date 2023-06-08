@@ -39,7 +39,6 @@ The target scenario of the real-world communication between Alice and Bob is des
   
   ![Alt Text](https://github.com/danielnovichkov/venom-hackathon-20230710/blob/master/img/Setting%20up%20UAE%20Pass%20Staging.jpg)
   
-  This is some additional information or description about the screenshot.
 </details>
 
 ### Preparation steps for a real estate owner: issue VCs and create ads
@@ -52,7 +51,6 @@ three pictures from this links:
   
   ![Alt Text](https://github.com/danielnovichkov/venom-hackathon-20230710/blob/master/img/Bob_issues_VC_RE.jpg)
   
-  This is some additional information or description about the screenshot.
 </details>
 
 5. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be prompted to confirm the login in your UAE.Pass app.
@@ -63,7 +61,6 @@ three pictures from this links:
   
   ![Alt Text](https://github.com/danielnovichkov/venom-hackathon-20230710/blob/master/img/Bob_creates_ads.jpg)
   
-  This is some additional information or description about the screenshot.
 </details>
 
 ### Main case workflow: Verify ownership
@@ -78,7 +75,6 @@ As a real estate **buyer**
   
   ![Alt Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Alice_verifies_Bob.jpg)
   
-  This is some additional information or description about the screenshot.
 </details>
 
 As a real estate **owner**
@@ -90,8 +86,7 @@ As a real estate **owner**
   
   ![Alt Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Bob_checks_alice_qr.jpg)
   
-  This is some additional information or description about the screenshot.
-</details>
+  </details>
 
 ### Both the real estate owner or the buyer
 See results!
@@ -100,7 +95,6 @@ See results!
   
   <img src="https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Success_verification_results.jpg" style="max-width: 25%;" alt="Alt Text">
   
-  This is some additional information or description about the screenshot.
 </details>
 
 ## Solution Architecture
