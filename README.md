@@ -98,7 +98,7 @@ See results!
 <details>
   <summary>Click to expand/collapse screenshots</summary>
   
-  ![Alt Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Success_verification_results.jpg)
+  <img src="https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/Success_verification_results.jpg" style="max-width: 25%;" alt="Alt Text">
   
   This is some additional information or description about the screenshot.
 </details>
