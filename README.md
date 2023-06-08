@@ -34,14 +34,37 @@ The target scenario of the real-world communication between Alice and Bob is des
 
 1. Install the UAE.Pass Staging application from the official site: https://docs.uaepass.ae/resources/staging-apps
 2. Complete a quick registration in the app, using your phone number or an email. No passport, ID card or residential status is required.
+<details>
+  <summary>Click to expand/collapse screenshots</summary>
+  
+  ![Alt Text](https://github.com/danielnovichkov/venom-hackathon-20230710/blob/master/img/Setting%20up%20UAE%20Pass%20Staging.jpg)
+  
+  This is some additional information or description about the screenshot.
+</details>
 
 ### Preparation steps for a real estate owner: issue VCs and create ads
 1. Log in to [Identix.Pass](https://pass.identix.space/) using the UAE Pass. A custodial wallet will be created, and a DID will be issued for you, and bound to the UAE Pass account.
 2. In Identix.Pass main screen, issue your Emirates ID Verifiable Credential using the corresponding button. In a real life, this VC must be issued by a government institution or other authorized authority.
 3. In Identix.Pass main screen, issue your Real Estate Ownership VC using the corresponding button. Until The UAE Department of Land is engaged, you should enter some data into the form. All fields are mandatory.
-4. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be prompted to confirm the login in your UAE.Pass app.
-5. Press the actions button in the page header and click "Create advertisement".
-6. Enter the same values as in step #3 in the corresponding fields. The values must be precisely equal, otherwise you won't be able to verify it. You can upload an image, just for fun.
+three pictures from this links:
+ <details> 
+  <summary>Click to expand/collapse screenshots</summary>
+  
+  ![Alt Text](https://github.com/danielnovichkov/venom-hackathon-20230710/blob/master/img/Bob_issues_VC_RE.jpg)
+  
+  This is some additional information or description about the screenshot.
+</details>
+
+5. Log in to [Real Estate Portal](https://re.identix.space/) using "Log in via UAE Pass" button. You will be prompted to confirm the login in your UAE.Pass app.
+6. Press the actions button in the page header and click "Create advertisement".
+7. Enter the same values as in step #3 in the corresponding fields. The values must be precisely equal, otherwise you won't be able to verify it. You can upload an image, just for fun.
+<details>
+  <summary>Click to expand/collapse screenshots</summary>
+  
+  ![Alt Text](https://github.com/danielnovichkov/venom-hackathon-20230710/blob/master/img/Bob_creates_ads.jpg)
+  
+  This is some additional information or description about the screenshot.
+</details>
 
 ### Main case workflow: Verify ownership
 As a real estate **buyer**
