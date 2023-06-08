@@ -27,6 +27,9 @@ In the digital era, SSI solution helps to solve these issues more securely.
 ### Watch YouTube video presentation
 [![Watch the video presentation](https://img.youtube.com/vi/_nKiMCJbcrg/0.jpg)](https://www.youtube.com/watch?v=_nKiMCJbcrg)
 
+or just watch the slides 
+[Link Text](https://github.com/identix-space/venom-hackathon-20230710/blob/master/img/TrustEstate%20by%20Identix.Space.pdf)
+
 
 ## Solution Scenario
 
