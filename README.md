@@ -4,7 +4,7 @@ https://hackathon.venom.network/
 
 TrustEstate is a new identity service set to transform the real estate market in Dubai.
 
-- The Identix.Pass custodial SSI wallet app: https://pass.identx.space/
+- The Identix.Pass custodial SSI wallet app: https://pass.identix.space/
 - Real Estate Portal (simulation): https://re.identix.space
 
 
